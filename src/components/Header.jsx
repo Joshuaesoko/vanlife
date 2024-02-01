@@ -38,6 +38,7 @@ export default function Header() {
                 <Link to="login" className="login-link">
                     <img
                         src={imageUrl}
+                        alt=""
                         className="login-icon"
                     />
                 </Link>
