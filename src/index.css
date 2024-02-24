@@ -140,6 +140,7 @@ footer {
     min-height: 350px;
     color: white;
     padding: 45px 23px;
+    
 }
 
 .home-container h1 {
@@ -166,6 +167,7 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.1s ease-in-out;
+    
 }
 
 
@@ -754,7 +756,7 @@ img.graph {
     margin-right: 5px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1024px) {
     .home-container a{
         width: 600px;
     }
@@ -764,7 +766,20 @@ img.graph {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 500px;
+        height: 700px;
   }
 }
 
+@media only screen and (max-width: 767px) {
+    .home-container a{
+        width: 600px;
+    }
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 700px;
+  } 
+}
